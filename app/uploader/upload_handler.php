@@ -439,19 +439,6 @@ class UploadHandler {
 			if ($file_size === $file->size) {
 				// file uploaded success
 				$file->url = $this->options['upload_url'].$file->name;
-				
-				//XXX: we make it on upload-jq.php
-				// if image create thumbnail now
-				/*
-				if ($this->is_valid_image_file($file_path)) {
-					$this->handle_image_file($file_path, $file);
-				}
-				$file_info = $this->get_file_info($file_path);
-				foreach ($file_info as $k => $v) {
-					$file->$k = $v;
-				}
-				*/
-				
 				$file->uploaded_flag = true;
 			} else {
 				$file->size = $file_size;

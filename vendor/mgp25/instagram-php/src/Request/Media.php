@@ -23,16 +23,23 @@ class Media extends RequestCollection
      *
      * @return \InstagramAPI\Response\MediaInfoResponse
      */
-    public function getInfo(
+	public function getInfo(
         $mediaId)
     {
         return $this->ig->request("media/{$mediaId}/info/")
-            ->addPost('_uuid', $this->ig->uuid)
-            ->addPost('_uid', $this->ig->account_id)
-            ->addPost('_csrftoken', $this->ig->client->getToken())
-            ->addPost('media_id', $mediaId)
             ->getResponse(new Response\MediaInfoResponse());
     }
+//	  POST NO NEEDED NO MORE
+//    public function getInfo(
+//        $mediaId)
+//    {
+//        return $this->ig->request("media/{$mediaId}/info/")
+//            ->addPost('_uuid', $this->ig->uuid)
+//            ->addPost('_uid', $this->ig->account_id)
+//            ->addPost('_csrftoken', $this->ig->client->getToken())
+//            ->addPost('media_id', $mediaId)
+//            ->getResponse(new Response\MediaInfoResponse());
+//    }
 
     /**
      * Delete a media item.

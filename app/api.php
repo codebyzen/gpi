@@ -36,6 +36,7 @@ function out($type,$message,$opts=false) {
 class API {
 	
 	private $config = null;
+	private $options = null;
 	private $authRes = false;
 	private $db = null;
 	private $allowedRoutes = array(
@@ -68,6 +69,8 @@ class API {
 		$this->db = $db;
 		$this->config = $config;
 		$this->db = $db;
+		
+		$this->options = $this->get_db_options();
 
 		if ($authRes==false) {
 			out("error", "Wrong auth...");
@@ -83,8 +86,25 @@ class API {
 			out("error", "Wrong request...");
 		}
 		
+
 	}
 
+	/**
+	 * Get all from DB options table
+	 * @global \dsda\dbconnector\dbconnector $db
+	 * @return array Array of Objects
+	 */	
+	private function get_db_options(){
+		$q = "SELECT * FROM `options`;";
+		$options = $this->db->query($q);
+		$out = new \stdClass();
+		foreach($options as $v){
+			$name = $v->name;
+			$out->$name = $v->value;
+		}
+		return $out;
+	}
+	
 	/**
 	 * Clear DB and uploads directory
 	 */
@@ -262,7 +282,18 @@ class API {
 	 * check for database tables exist
 	 */
 	function bootstrap() {
-		//TODO: check base tables
+		if (!file_exists($this->config->get('path').$this->options->path_ready)) {
+			mkdir($this->config->get('path').$this->options->path_ready, 0755, true);
+		}
+		if (!file_exists($this->config->get('path').$this->options->path_original)) {
+			mkdir($this->config->get('path').$this->options->path_original, 0755, true);
+		}
+		if (!file_exists($this->config->get('path').$this->options->path_temp)) {
+			mkdir($this->config->get('path').$this->options->path_temp, 0755, true);
+		}
+		if (!file_exists($this->config->get('path').$this->options->path_thumbnail)) {
+			mkdir($this->config->get('path').$this->options->path_thumbnail, 0755, true);
+		}
 		return array('type'=>'success', 'message'=>'Bootstraped OK!');
 	}
 

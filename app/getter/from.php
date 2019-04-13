@@ -26,6 +26,9 @@ class from {
 		
 		$this->db_options = $this->get_db_options();
 		
+//		$catcher = new \dsda\catcher\catcher();
+//		$catcher->debug([$class_name, $url, $network['credentials'], $config->get('path').$this->db_options->path_temp]);
+		
 		/**
 		 * data fields: array: files, string: description, string: source
 		 */
@@ -42,7 +45,7 @@ class from {
 		 */
 		$files = [];
 		foreach($data->result['files'] as $v) {
-			$files[] = array_merge(['name'=>$v], $video_worker->get_file_info($v));
+			$files[] = array_merge(['name'=>$v], $video_worker->get_file_info($this->config->get('path').$this->db_options->path_temp.$v));
 		}
 		
 		$data->result['files'] = $files;

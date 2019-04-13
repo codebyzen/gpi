@@ -1,15 +1,24 @@
 <?php
 namespace gpi\getter;
 
+use InstagramAPI\InstagramID;
+use InstagramAPI\Utils;
+
 class instagram {
 	
 	public $result;
 	private $credentials;
+	private $temp_path;
 	
 	function __construct(string $url, array $credentials, string $path) {
-		$url = filter_var($url, FILTER_VALIDATE_URL);
+		
+		$url = filter_var($url, FILTER_VALIDATE_REGEXP,array("options"=>array("regexp"=>"/^([a-z0-9_-]+)$/is")));
+		
+//		$catcher = new \dsda\catcher\catcher();
+//		$catcher->debug(['/getter/instagram/construct ... url'=>$url]);
+		
 		if ($url===NULL || $url===false) {
-			throw new \Exception("No url!", 0);
+			throw new \Exception("No media code!", 0);
 		}
 		
 		if (!file_exists( dirname($path) )) {
@@ -53,6 +62,103 @@ class instagram {
 	}
 	
 	/**
+	 * Get data from instagram CDN servers
+	 * @param array $options
+	 * @return array
+	 * @throws \Exception
+	 */
+	private function curl_get($options=false) {
+
+		$opt = array(
+			'referer' => false,
+			'url' => 'localhost',
+			'useragent' => '',
+			'headers' => array(),
+			'post'=> false,
+		);
+
+		if ($options!==false) $opt = array_merge($opt, $options);
+
+		$ch = curl_init();
+
+		curl_setopt($ch, CURLOPT_URL, $opt['url']); // set URL
+		curl_setopt($ch, CURLOPT_HEADER, false); // exclude header from output
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);  // return data from request
+		curl_setopt($ch, CURLOPT_USERAGENT, $opt['useragent']);
+		curl_setopt($ch, CURLOPT_REFERER, $opt['referer']);
+		curl_setopt($ch, CURLOPT_HTTPHEADER, $opt['headers']);
+		curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+		if (isset($opt['post']) && $opt['post']!=false) {
+			curl_setopt($ch, CURLOPT_POST, true);
+			curl_setopt($ch, CURLOPT_POSTFIELDS, $opt['post']);
+		}
+		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+		curl_setopt($ch, CURLOPT_BINARYTRANSFER, true);
+		curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+
+		$info = ['data'=>false,'info'=>['http_code'=>0]];
+
+		if (curl_errno($ch) != 0) {
+			return $info;
+		}
+		$ret['data'] = curl_exec($ch);
+		$ret['info'] = curl_getinfo($ch);
+		curl_close($ch);
+		if ($ret['info']['http_code'] == 200) {
+			return $ret;
+		} else {
+			throw new \Exception('Error access to URL [http-code:'.$ret['info']['http_code'].']: '.$opt['url'], 0);
+		}
+	}
+	
+	/**
+	 * Get files from url and place it to disk
+	 * @param array $files
+	 * @return string
+	 */
+	private function get_item_files($files){
+		$files_on_disk = array();
+		foreach($files as $k=>$v) {
+			$opt = array(
+				'referer' => false,
+				'url' => $v['url'],
+				'useragent' => "23/6.0.1; 640dpi; 1440x2560; ZTE; ZTE A2017U; ailsa_ii; qcom",
+				'headers' => false,
+			);
+
+			$result = $this->curl_get($opt);
+			if ($result['data']!==false) {
+				$filename = time()."_".rand(10,99)."_".rand(10,99).".".$v['type'];
+				file_put_contents($this->temp_path.$filename, $result['data']);
+				$files_on_disk[] = $filename;
+			}
+		}
+		return $files_on_disk;
+	}
+
+	/**
+	 * Get files URL from PHOTO, VIDEO, ALBUM type of Item
+	 * @param String $media_type
+	 * @param /InstagramAPI/Media $item
+	 * @return Array
+	 */
+	function get_media_url($media_type, $item) {
+		$file = [];
+		if ($media_type == 'PHOTO') {
+			$file = array('url'=>$item->getImageVersions2()->getCandidates()[0]->getUrl(), 'type'=>'jpg');
+		} elseif ($media_type == 'VIDEO') {
+			$file = array('url'=>$item->getVideoVersions()[0]->getUrl(), 'type'=>'mp4');
+		} elseif ($media_type == 'ALBUM') {
+			$carousel = $item->getCarouselMedia();
+			foreach($carousel as $carousel_object) {
+				$media_type = Utils::checkMediaType($carousel_object->getMediaType());
+				$file[] = $this->get_media_url($media_type, $carousel_object);
+			}
+		}
+		return $file;
+	}
+	
+	/**
 	 * Copy all hashtags from description
 	 * @param type $text
 	 * @return type
@@ -67,43 +173,22 @@ class instagram {
 		}
 		return $ctags;
 	}
-	
-	/**
-	 * Get short code for access to media
-	 * @param type $shortcode
-	 * @return type
-	 */
-	function shortcode_to_mediaid(string $shortcode): string {
-		$alphabet='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_';
-		$mediaid = 0;
-		foreach(str_split($shortcode) as $letter) {
-			$mediaid = ($mediaid*64) + strpos($alphabet, $letter);
-		}
-		return $mediaid;
-	}
-	
-	
+		
 	/**
 	 * Return array: location, string: url, string: ext, array: files, string: source, string: description, array: tags
 	 * @return array
 	 */
-	private function files_get(){
+	private function files_get($shortcode){
 		$ig = $this->insta_login();
 		
-		$shortcode = basename(parse_url($url)['path']);
+		$mediaId = InstagramID::fromCode($shortcode);
 		
-		// Hack to short long code
-		if (strlen($shortcode)>11) {
-			$shortcode = substr($shortcode, 0, 11);
-		}
-		
-		$mediaId = $this->shortcode_to_mediaid($shortcode);
-
 		$itemInfo = $ig->media->getInfo($mediaId);
 		
-		$files = array();	
+		$files = [];
+		//TODO: почему перечисление в массив? там ведь даже при каруселе всего один айтем где все лежит... может для сторис???
 		foreach ($itemInfo->getItems() as $item) {
-			$media_type = $item->getMediaType();
+			$media_type = Utils::checkMediaType($item->getMediaType());
 			$source = $item->getUser()->getUsername();
 			$description = ($item->getCaption()!==NULL) ?  $item->getCaption()->getText() : '';
 			$tags = $this->parse_tags_from_description($description);
@@ -118,25 +203,12 @@ class instagram {
 				$loc_arr['location_city'] = $location->getCity();
 				$loc_arr['location_country'] = $location->getCountry();
 			}
-			
-			if ($media_type == 1) {
-				// Photo
-				$files[] = array('url'=>$item->getImageVersions2()->getCandidates()[0]->getUrl(), 'type'=>'jpg');
-			} elseif ($media_type == 2) {
-				// Video
-				$files[] = array('url'=>$item->getVideoVersions()[0]->getUrl(), 'type'=>'mp4');
-			}
+						
+			$files = $this->get_media_url($media_type, $item);
 		}
-
-		$files_on_disk = array();
-		foreach($files as $k=>$v) {
-			$result = $this->curl_get($v['url'], false, "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36");
-			if ($result['type']!=='error') {
-				$filename = time()."_".rand(10,99)."_".rand(10,99).".".$v['type'];
-				file_put_contents($this->temp_path.$filename, $result['message']);
-				$files_on_disk[] = $filename;
-			}
-		}
+		
+		//XXX: закончил тут 13 апреля 2019 (суббота)
+		$files_on_disk = $this->get_item_files($files);
 		
 		$grabber_result = array(
 			'location' => $loc_arr,
