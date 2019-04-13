@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="614px" height="614px" viewBox="0 0 614 614" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>gpi-solid</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gpi-solid" transform="translate(1.000000, 1.000000)" fill-rule="nonzero">
+            <path d="M612,510 C612,566.1 566.1,612 510,612 L102,612 C45.9,612 0,566.1 0,510 L0,102 C0,45.9 45.9,0 102,0 L510,0 C566.1,0 612,45.9 612,102 L612,510 Z" id="Shape" stroke="#979797" fill="#457AFB"></path>
+            <polygon id="G" fill="#FFFFFF" points="306.2 339.2 371.6 339.2 371.6 404.6 240.8 404.6 240.8 208.4 502.4 208.4 502.4 143 110 143 110 470 502.4 470 502.4 273.8 306.2 273.8"></polygon>
+        </g>
+    </g>
+</svg>

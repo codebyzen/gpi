@@ -1,0 +1,11 @@
+{
+    "require": {
+		"dsda/auth": "dev-master",
+		"dsda/catcher": "dev-master",
+		"dsda/fileinfo": "dev-master",
+		"php-ffmpeg/php-ffmpeg": "^0.13",
+		"mgp25/instagram-php": "^5.0"
+	},
+	"prefer-stable": true,
+    "minimum-stability": "dev"
+}

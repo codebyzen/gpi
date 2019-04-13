@@ -1,0 +1,63 @@
+.progress {height: 5px;}
+
+#dropzone {
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	border: 1px solid gray;
+}
+
+#dropzone.dragover {
+	border: 2px dashed gray !important;
+	background-color: antiquewhite;
+}
+
+#dropzone.dragover * {
+	color: gray !important;
+}
+
+#dropzone input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  -ms-filter: 'alpha(opacity=0)';
+  font-size: 200px !important;
+  width: 100%;
+  height: 100%;
+  direction: ltr;
+  cursor: pointer;
+}
+
+
+.form-control.inline {
+	display:inline;
+	width:auto;
+	height:auto;
+}
+
+
+.location_result_item:hover {
+	background-color: rgba(0,0,0,0.3);
+	border-bottom: #ffffff;
+}
+
+
+.action-fa-wrapper i{
+	margin-left: 0.5em;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+
+#wait {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 999999;
+	color: white;
+}

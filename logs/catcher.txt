@@ -1,0 +1,14 @@
+================== DEBUG MESSAGE ==================
+2019-04-13 13:36:31
+Array
+(
+    [Error] => 1
+    [Message] => Uncaught Exception: gpi\getter\file: No local file found! (/Users/ugputu/Work/dsda/gpi_v2/upload/temp//Users/ugputu/Work/dsda/gpi_v2/upload/temp/1555151791628_41_71.jpg) in /Users/ugputu/Work/dsda/gpi_v2/app/getter/networks/file.php:10
+Stack trace:
+#0 /Users/ugputu/Work/dsda/gpi_v2/app/getter/from.php(32): gpi\getter\file->__construct('/Users/ugputu/W...', Array, '/Users/ugputu/W...')
+#1 /Users/ugputu/Work/dsda/gpi_v2/app/uploader/uploader.php(66): gpi\getter\from->__construct(Object(dsda\config\config), Object(dsda\dbconnector\dbconnector), '/Users/ugputu/W...', Array)
+#2 {main}
+  thrown
+    [In file] => /Users/ugputu/Work/dsda/gpi_v2/app/getter/networks/file.php
+    [On line] => 10
+)

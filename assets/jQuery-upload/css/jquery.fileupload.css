@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.bg-purple { background-color: #6f42c1; }
+
+.progress {height: 5px;}
+
+#dropzone {
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	border: 1px solid gray;
+}
+
+#dropzone.dragover {
+	border: 2px dashed gray !important;
+	background-color: antiquewhite;
+}
+
+#dropzone.dragover * {
+	color: gray !important;
+}
+
+#dropzone input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  -ms-filter: 'alpha(opacity=0)';
+  font-size: 200px !important;
+  width: 100%;
+  height: 100%;
+  direction: ltr;
+  cursor: pointer;
+}

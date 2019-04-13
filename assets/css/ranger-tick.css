@@ -1,0 +1,89 @@
+input.gpi-time-range[type=range] {
+	-webkit-appearance: none;
+	width: 100%;
+	margin: -0.5px 0;
+}
+input.gpi-time-range[type=range]:focus {
+	outline: none;
+}
+input.gpi-time-range[type=range]::-webkit-slider-runnable-track {
+	width: 100%;
+	height: 25px;
+	cursor: pointer;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+	background: #dcdcdc;
+	border-radius: 25px;
+	border: 0px solid rgba(0, 1, 1, 0);
+}
+input.gpi-time-range[type=range]::-webkit-slider-thumb {
+	box-shadow: 1.5px 1.5px 5px rgba(0, 0, 0, 0), 0px 0px 1.5px rgba(13, 13, 13, 0);
+	border: 1px solid #00b300;
+	height: 24px;
+	width: 24px;
+	border-radius: 50px;
+	background: rgba(0, 206, 0, 0.23);
+	cursor: pointer;
+	-webkit-appearance: none;
+	margin-top: 0.5px;
+}
+input.gpi-time-range[type=range]:focus::-webkit-slider-runnable-track {
+	background: #e9e9e9;
+}
+input.gpi-time-range[type=range]::-moz-range-track {
+	width: 100%;
+	height: 25px;
+	cursor: pointer;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+	background: #dcdcdc;
+	border-radius: 25px;
+	border: 0px solid rgba(0, 1, 1, 0);
+}
+input.gpi-time-range[type=range]::-moz-range-thumb {
+	box-shadow: 1.5px 1.5px 5px rgba(0, 0, 0, 0), 0px 0px 1.5px rgba(13, 13, 13, 0);
+	border: 1px solid #00b300;
+	height: 24px;
+	width: 24px;
+	border-radius: 50px;
+	background: rgba(0, 206, 0, 0.23);
+	cursor: pointer;
+}
+input.gpi-time-range[type=range]::-ms-track {
+	width: 100%;
+	height: 25px;
+	cursor: pointer;
+	background: transparent;
+	border-color: transparent;
+	color: transparent;
+}
+input.gpi-time-range[type=range]::-ms-fill-lower {
+	background: #cfcfcf;
+	border: 0px solid rgba(0, 1, 1, 0);
+	border-radius: 50px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+}
+input.gpi-time-range[type=range]::-ms-fill-upper {
+	background: #dcdcdc;
+	border: 0px solid rgba(0, 1, 1, 0);
+	border-radius: 50px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+}
+input.gpi-time-range[type=range]::-ms-thumb {
+	box-shadow: 1.5px 1.5px 5px rgba(0, 0, 0, 0), 0px 0px 1.5px rgba(13, 13, 13, 0);
+	border: 1px solid #00b300;
+	width: 24px;
+	border-radius: 50px;
+	background: rgba(0, 206, 0, 0.23);
+	cursor: pointer;
+	height: 24px;
+}
+input.gpi-time-range[type=range]:focus::-ms-fill-lower {
+	background: #dcdcdc;
+}
+input.gpi-time-range[type=range]:focus::-ms-fill-upper {
+	background: #e9e9e9;
+}
+
+.gpi-time-range-ticks {
+	height: 20px;
+	border-top: 1px solid gray;
+}
