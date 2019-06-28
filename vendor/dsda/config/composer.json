@@ -1,0 +1,24 @@
+{
+    "name": "dsda/config",
+    "type": "library",
+    "description": "Config is pregenerate bootstrap config file for web projects",
+    "keywords": ["framework", "config"],
+    "homepage": "http://dsda.ru/",
+    "license": "CC-BY-4.0",
+    "authors": [
+        {
+            "name": "Eugene Che",
+            "email": "dsda@dsda.ru",
+            "homepage": "https://github.com/ugputu"
+        }
+    ],
+    "require": {
+		"php": ">=5.5"
+    },
+    "autoload": {
+        "files": ["src/config.php"],
+        "psr-4": {
+            "config\\": "src/"
+        }
+    }
+}
