@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TODO supply a title</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="./konva.min.js"></script>
+		<style>
+			#canvasWrapper {
+				width: 90%;
+				margin: 0 auto;
+			}
+			canvas {
+				border: 1px solid red !important;
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="canvasWrapper"></div>
+		<script>
+			
+			window.gpi_media_editor = {
+				stage: {
+					width: 1280,
+					height: 1080
+				},
+				media: {
+					type: 'IGTV',
+					size: 'portrait',
+					file: '123.jpg'
+				},
+				
+			};
+			
+			function fitStageIntoParentContainer() {
+				var stage = window.konvastage;
+				var container = document.getElementById('canvasWrapper');
+				// now we need to fit stage into parent
+				var containerWidth = container.offsetWidth;
+				// to do this we need to scale the stage
+				var scale = containerWidth / gpi_media_editor.stage.width;
+
+				stage.width(gpi_media_editor.stage.width * scale);
+				stage.height(gpi_media_editor.stage.height * scale);
+				stage.scale({ x: scale, y: scale });
+				stage.draw();
+			}
+			
+			
+			window.konvastage = new Konva.Stage({
+				container: 'canvasWrapper',
+				width: gpi_media_editor.stage.width,
+				height: gpi_media_editor.stage.height
+			});
+
+			window.konvastage.content.crossOrigin="anonymous";
+
+			var layer = new Konva.Layer({
+				id: 'layerObject'
+			});
+			window.konvastage.add(layer);
+
+			
+
+			var circle = new Konva.Circle({
+				x: 250,
+				y: window.konvastage.height() / 2,
+				fill: 'red',
+				stroke: 'black',
+				strokeWidth: 4,
+				radius: 70
+			});
+			layer.add(circle);
+
+			konvastage.getLayers()[0].draw();
+
+			fitStageIntoParentContainer();
+			
+			window.addEventListener('resize', fitStageIntoParentContainer);
+			
+		</script>
+	</body>
+</html>

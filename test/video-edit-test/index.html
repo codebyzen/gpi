@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="./js/jquery-3.3.1.min.js"></script>
+		<!-- FontAwesome 5.5.0 -->
+		<link href="./fontawesome-free-5.5.0-web/css/all.css" rel="stylesheet">		
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+			}
+			#videoWrapper {
+				display: block;
+				margin: 0 auto;
+				width: 100vw;
+				height: 60vh;
+			}
+			#videoWrapper #controls {
+				text-align: center;
+			}
+
+			video {
+				display: block;
+				margin: 0 auto;
+
+				height: 100%;
+			}
+		</style>
+		<script>
+
+			var gpi_waiter = {
+				show: function(lambda){
+					$('body').prepend('<div id="wait"><i class="fa fa-spinner fa-w-16 fa-spin fa-2x"</i></div>');
+					let css = "position: fixed;width: 100%;height: 100%;background-color: rgba(0,0,0,0.8);z-index: 999999;color: white; display: -ms-flexbox !important; display: flex !important;-ms-flex-align: center !important;align-items: center !important;-ms-flex-pack: center !important;justify-content: center !important;";
+					$('#wait').attr('style',css);
+					$('#wait').hide().fadeIn(function(){
+						if (typeof lambda != 'undefined') lambda();
+					});
+				},
+				hide: function(lambda){
+					$('#wait').fadeOut(function(){
+						$(this).remove();
+						if (typeof lambda != 'undefined') lambda();
+					});
+				}
+			};
+
+
+
+			function apiRequest(request, callback) {
+				$.ajax({
+					url: window.vst_url + '/gears/api.php',
+					data: request,
+					method: "POST",
+					dataType: "JSON",
+					cache: false,
+					timeout: 300000,
+					statusCode: {
+						500: function () {
+							callback({message: v2, type: "error", opts: 'Server on maintence.<br>Try do it later.'});
+						},
+						404: function () {
+							callback({message: v2, type: "error", opts: 'API error 404!.<br> Try refresh page!'});
+						}
+					},
+					success: function (data) {
+						callback(data);
+					},
+					error: function (v1, v2, v3) {
+						callback({message: v2, type: "error", opts: false});
+					}
+				});
+			}
+
+			function sendTask(){
+				let inT = controls.getElementsByClassName('inMarker')[0].value;
+				let outT = controls.getElementsByClassName('outMarker')[0].value;
+				console.log(inT,outT);
+				apiRequest({request:"sendTask", in: inT, out: outT}, function(data){console.log(data);});
+			}
+
+			function getFrameRate(video) {
+				var timeoutMilisecs = 3000;
+				if (video.isPlaying==true) {
+					// console.log(video.currentTime);
+					if (video.currentTime>=1) {
+						clearInterval(window.frameRateTimer);
+						video.pause();
+						video.frameRate = video.webkitDecodedFrameCount/timeoutMilisecs*1000;
+						video.currentTime = 0;
+						console.log(video.currentTime);
+						console.log(video.frameRate);
+						gpi_waiter.hide();
+					}
+				} else {
+					window.frameRateTimer = setInterval(function(){getFrameRate(video)},timeoutMilisecs);
+					video.play();
+				}
+			}
+
+			function getFrameRate2(video){
+				for(var i = 0; i<=10000;i++) {
+					//console.log(i);
+					if (video.currentTime>=1) {
+						video.frameRate = video.webkitDecodedFrameCount;
+						//console.log(video.currentTime);
+						console.log(video.frameRate);
+						return true;
+					} else {
+						video.currentTime = video.currentTime + 0.001;
+						// console.log("position: " + video.currentTime);
+					}
+				}
+			}
+
+			function getFrameRate3(video){
+				if (video.currentTime>=1 && (video.frameRate==0 || typeof video.frameRate == "undefined")) {
+					video.frameRate = video.webkitDecodedFrameCount;
+					// console.log(video.currentTime);
+					console.log(video.webkitDecodedFrameCount);
+				}
+			}
+
+			window.onload = function(){
+
+				gpi_waiter.show();
+
+				window.vst_url = location.href;
+
+				window.video = document.getElementById('video');
+				// video.controls = true;
+				video.isPlaying = false;
+				// video.defaultMuted = true;
+				// video.muted = true;
+				// video.preload = 'metadata';
+				video.frameRate==0;
+				getFrameRate(video);
+				//console.log(video);
+				video.addEventListener('play', function (event) {
+					console.log('play');
+					video.isPlaying = true;
+				});
+				video.addEventListener('pause', function (event) {
+					console.log('pause');
+					video.isPlaying = false;
+				});
+				video.addEventListener('click', function (event) {
+					var target = event.target;
+					if (video.isPlaying == true) {
+						video.pause();
+					} else {
+						video.play();
+					}
+				});
+				
+				// video.addEventListener('timeupdate', function (event) {
+				// 	getFrameRate3(window.video);
+				// });
+
+				var submitButton = document.getElementById('sendTask');
+				submitButton.addEventListener('click', function(event){
+					sendTask();
+				});
+
+
+				var controls = document.getElementById('controls');
+
+				var setIN = controls.getElementsByClassName('setIN');
+				setIN[0].addEventListener('click', function (event) {
+					console.log(video.currentTime);
+					controls.getElementsByClassName('inMarker')[0].value = video.currentTime;
+				});
+				
+				var setOUT = controls.getElementsByClassName('setOUT');
+				setOUT[0].addEventListener('click', function (event) {
+					console.log(video.currentTime);
+					controls.getElementsByClassName('outMarker')[0].value = video.currentTime;
+				});
+
+
+				var stepBackward = controls.getElementsByClassName('stepBackward');
+				stepBackward[0].addEventListener('click', function (event) {
+					console.log("minus " + 1000/video.frameRate/1000);
+					video.currentTime = video.currentTime - 1000/video.frameRate/1000;
+				});
+				
+				var stepForward = controls.getElementsByClassName('stepForward');
+				stepForward[0].addEventListener('click', function (event) {
+					console.log("plus " + 1000/video.frameRate/1000);
+					video.currentTime = video.currentTime + 1000/video.frameRate/1000;
+				});
+
+			}
+
+	
+
+
+		</script>
+	</head>
+	<body>
+		<div id="videoWrapper">
+			<video controls muted="false" preload="metadata" id="video">
+				<source src="../video_title/video_1.mp4" type="video/mp4">
+			</video>
+			<div id="controls">
+				<button class="stepBackward"><</button><button class="stepForward">></button>
+				<button class="setIN">IN</button><button class="setOUT">OUT</button>
+				<input type="text" class="inMarker"> <input type="text" class="outMarker"><br>
+				<input type="button" value="send task" id="sendTask">
+			</div>
+		</div>
+	</body>
+</html>

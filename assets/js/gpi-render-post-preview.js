@@ -1,43 +1,42 @@
 /* render and update DOM from request name */
 function update_posts_preview(from, tpl, target_object, apiRequestName, filter){
+	console.log('update_posts_preview', ["from" , from], target_object, apiRequestName, filter);
 	window.gpi_loaded_previews_from = from;
 	apiRequest(
-			{
+		{
 				request: apiRequestName,
 				from: from,
 				filter: filter
-			}, 
-			function(data){
-				
+		}, 
+		function(data){
 				if (data.type!=='success') { alert('Some error with API!'); return false; }
 				if (data.opts.type!=='success') { alert('Some error with API engine:\n'+data.opts.message); return false; }
 				data.opts = data.opts.message;
-				
 				if (data.opts==false) {
-					if (window.gpi_loaded_previews_from!=0) {
-					    console.log('No more date... Load last...');
-					    notify('info','No more posts...');
-						update_posts_preview(window.gpi_loaded_previews_from - 10, tpl, target_object, apiRequestName, filter);
-					}
+						if (window.gpi_loaded_previews_from!=0) {
+							console.log('No more date... Load last...');
+							notify('info','No more posts...');
+								update_posts_preview(window.gpi_loaded_previews_from - 10, tpl, target_object, apiRequestName, filter);
+						}
 				}
 
 				var posts_tpl_preview = '';
 				for (var i in data.opts) {
-					posts_tpl_preview += render_posts_preview(data.opts[i], tpl);
+						posts_tpl_preview += render_posts_preview(data.opts[i], tpl);
 				}
 				$(target_object).append('<div style="display:none;" class="hidden-posts-list">'+posts_tpl_preview+'</div>');
 				$(target_object+' .hidden-posts-list').slideDown();
 
-			}
+		}
 	)
 }
 
 /* render post preview html drom data object */
 function render_posts_preview(post, tpl){
-	console.log(post);
+	console.log("render_posts_preview", post);
 	var post_tpl_preview = tpl;
 
-	post_tpl_preview = post_tpl_preview.replace('{%image%}', gpi_url+'/upload/thumbnail/'+post.thumbnail);
+		post_tpl_preview = post_tpl_preview.replace('{%image%}', gpi_url+'/upload/thumbnail/'+post.files[0].name);
 	post_tpl_preview = post_tpl_preview.replace('{%url%}', gpi_url+'/upload/ready/'+post.name);
 
 	if (post.networks && post.networks!=null) {

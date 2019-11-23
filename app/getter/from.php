@@ -14,7 +14,7 @@ class from {
 		
 		if (!stream_is_local($url)) {
 			$network = $this->parse_network($url);
-			$url = basename($url);
+//			$url = basename($url);
 		} else {
 			$network['type'] = 'file';
 			$network['credentials'] = [];
@@ -26,14 +26,13 @@ class from {
 		
 		$this->db_options = $this->get_db_options();
 		
-//		$catcher = new \dsda\catcher\catcher();
+		$catcher = new \dsda\catcher\catcher();
 //		$catcher->debug([$class_name, $url, $network['credentials'], $config->get('path').$this->db_options->path_temp]);
 		
 		/**
 		 * data fields: array: files, string: description, string: source
 		 */
 		$data = new $class_name($url, $network['credentials'], $config->get('path').$this->db_options->path_temp);
-
 		
 		include($this->config->get('path').'app/worker/video_worker.php');
 		
@@ -45,7 +44,8 @@ class from {
 		 */
 		$files = [];
 		foreach($data->result['files'] as $v) {
-			$files[] = array_merge(['name'=>$v], $video_worker->get_file_info($this->config->get('path').$this->db_options->path_temp.$v));
+			//$catcher->debug([$this->config->get('path'),$this->db_options->path_temp,$v]);
+			$files[] = array_merge(['name'=>$v], $video_worker->get_file_info($v));
 		}
 		
 		$data->result['files'] = $files;
@@ -107,7 +107,7 @@ class from {
 			$nets = $this->db->query("SELECT * FROM `networks` WHERE `active` = 'TRUE' AND `type` = 'vk';", false, true);
 			if ($nets!==false) $credentials = $nets[0];
 		} else {
-			$credentials = false;
+			$credentials = [];
 		}
 		
 		return ['type'=>$service, 'credentials'=>$credentials];
@@ -280,6 +280,7 @@ class from {
 		
 		
 		// 1. check post data
+		//XXX: проверка не проходит т.к. в UI нет этих кнопок, доделать, подумать как лучше
 		$postdata = $this->check_post_data($post);
 		
 		$auth = new \dsda\auth\auth(true);

@@ -63,11 +63,14 @@ if (
 	
 	include_once $config->get('path').'/app/getter/from.php';
 	$post = ['in'=>0,'out'=>0,'multiplex'=>'no','watermark'=>true,'resize'=>'resize','background'=>'blurred'];
+	//$catcher->debug($uploader_options['upload_dir'].$result['files'][0]->name);
 	$getter = new gpi\getter\from($config, $db, $uploader_options['upload_dir'].$result['files'][0]->name, $post);
 	
 	$upload_handler->generate_response($upload_handler->result_of_script['result'][0],$upload_handler->result_of_script['print']);
 
 } else {
+//	$catcher->debug($upload_handler->result_of_script['result'][0]);
+//	$catcher->debug($upload_handler->result_of_script['print']);
 	if ($upload_handler->result_of_script!==false) {
 		$upload_handler->generate_response($upload_handler->result_of_script['result'][0],$upload_handler->result_of_script['print']);
 	}

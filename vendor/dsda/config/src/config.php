@@ -40,26 +40,26 @@ class config {
 
 
 	function __construct(){
-        $this->url = $this->get__global_url();
-		$this->path = $this->get__global_path();
-		$libPath = dirname(__FILE__);
-		if (!file_exists($libPath.'/data') || !file_exists($libPath.'/data/salt.php')) {
-			$salt = '';
-			for($i=0;$i<=32;$i++){ 
-				$skparr = [34,39,47,92]; $z=rand(33,126); if (!in_array($z,$skparr)) 
-				$salt .= chr($z); 
-			}
-			if (!file_exists($libPath.'/data')) {
-				mkdir($libPath.'/data');
-			}
-			file_put_contents($libPath.'/data/salt.php', '<?php $salt_pregen="'.$salt.'";');
-		}
-		include($libPath.'/data/salt.php');
-		$this->set('salt', $salt_pregen);
-		
-		$this->set('themepath', $this->get('path').'/assets/tpl'.DIRECTORY_SEPARATOR);
-		$this->set('themeurl', $this->get('url').'/assets/tpl'.DIRECTORY_SEPARATOR);
-		$this->set('assetsurl', $this->get('url').'/assets'.DIRECTORY_SEPARATOR);
+            $this->url = $this->get__global_url();
+            $this->path = $this->get__global_path();
+            $libPath = dirname(__FILE__);
+            if (!file_exists($libPath.'/data') || !file_exists($libPath.'/data/salt.php')) {
+                    $salt = '';
+                    for($i=0;$i<=32;$i++){ 
+                            $skparr = [34,39,47,92]; $z=rand(33,126); if (!in_array($z,$skparr)) 
+                            $salt .= chr($z); 
+                    }
+                    if (!file_exists($libPath.'/data')) {
+                            mkdir($libPath.'/data');
+                    }
+                    file_put_contents($libPath.'/data/salt.php', '<?php $salt_pregen="'.$salt.'";');
+            }
+            include($libPath.'/data/salt.php');
+            $this->set('salt', $salt_pregen);
+
+            $this->set('themepath', $this->get('path').'/assets/tpl'.DIRECTORY_SEPARATOR);
+            $this->set('themeurl', $this->get('url').'/assets/tpl'.DIRECTORY_SEPARATOR);
+            $this->set('assetsurl', $this->get('url').'/assets'.DIRECTORY_SEPARATOR);
 		
 	}
 
@@ -75,7 +75,7 @@ class config {
         } else {
             $url = $scheme.'localhost';
         }
-        return $url.DIRECTORY_SEPARATOR;
+        return $url;
     }
 
     private function get__global_path(){

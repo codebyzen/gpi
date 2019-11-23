@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>VIDEO EDIT</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="../../assets/jQuery/jquery-3.4.1.min.js"></script>
+		<script src="../../assets/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+		
+		<link href="../../assets/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+	</head>
+	<body>
+		<div class="container">
+			<div class="card">
+				<div class="card-header">Title</div>
+				<div class="card-body">
+					<select>
+						<option value="1">Video 1</option>
+						<option value="2">Video 2</option>
+					</select>
+					
+					<video controls preload="metadata" id="video1">
+						<source src="../video_title/video_1.mp4" type="video/mp4">
+					</video>
+					
+					<a href="#" class="btn btn-warning btn-sm">Unlink from post</a>
+					
+					<input type="checkbox" checked> Watermark
+					
+					
+					
+					<div class="text-right">
+						<a href="#" class="btn btn-primary">Create Task</a>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -86,7 +86,8 @@ class StorageHandler
         'ig_android_fbupload_sidecar_video_universe',
         'ig_android_skip_get_fbupload_photo_universe',
         'ig_android_skip_get_fbupload_universe',
-        'ig_android_loom_universe',
+        'ig_android_live_suggested_live_expansion',
+        'ig_android_live_qa_broadcaster_v1_universe',
     ];
 
     /**
@@ -509,7 +510,14 @@ class StorageHandler
                 // Perform an atomic diskwrite, which prevents accidental
                 // truncation if the script is ever interrupted mid-write.
                 $this->_createCookiesFileDirectory(); // Ensures dir exists.
-                $written = Utils::atomicWrite($this->_cookiesFilePath, $rawData);
+                $timeout = 5;
+                $init = time();
+                while (!$written = Utils::atomicWrite($this->_cookiesFilePath, $rawData)) {
+                    usleep(mt_rand(400000, 600000));  // 0.4-0.6 sec
+                    if (time() - $init > $timeout) {
+                        break;
+                    }
+                }
                 if ($written === false) {
                     throw new SettingsException(sprintf(
                         'The "%s" cookie file is not writable.',

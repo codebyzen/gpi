@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="./konva.min.js"></script>
+		<script src="./mytest.js"></script>
+		<meta charset="utf-8" />
+		<title>GPI Video editor</title>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+			}
+			
+			#wrapper {
+				width: 100%;
+				height: 100vh;
+			}
+			#canvasWrapper {
+				width: 90vw;
+				max-width: 1200px;
+				margin: 0 auto;
+			}
+			.konvajs-content {
+				/*border: 1px solid red;*/
+				margin: 0 auto;
+			}
+			canvas {
+				border: 1px solid black !important;
+			}
+			label {
+				display:block;margin:0 auto;
+			}
+			#controllers {
+				width: 90%;
+				margin:0 auto;
+			}
+			textarea {
+				border-radius: 5px; border-color: transparent; width: 100%;display:block;margin: 0 auto; border: 1px solid lightgray;
+			}
+			input {
+				border-radius: 5px; border-color: transparent; width: 100%;display:block;margin: 0 auto; 
+			}
+			input[type=color] {
+				display: inline;
+				width: 1.85em;
+				height: 1.85em;
+				border: none;
+				padding: 0;
+				margin: 0;
+			}
+			input[type=radio] {
+				display: inline;
+				width: 1.85em;
+				height: 1.85em;
+				border: none;
+				padding: 0;
+				margin: 0;	
+			}
+			button {
+				height: 3em;
+				padding: 0 2em 0 2em;
+				border: none;
+				background-color: lightgray;
+				border-radius: 8px;
+				font-weight: bolder;
+				text-transform: uppercase;
+				color: black;
+				box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.5);
+				margin: 1em 0.2em 1em 0.2em;
+			}
+			select {
+				height: 3em;
+				padding: 0 2em 0 2em;
+				border: none;
+				background-color: lightgray;
+				border-radius: 8px;
+				font-weight: bolder;
+				text-transform: uppercase;
+				color: black;
+				box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.5);
+				margin: 1em 0.2em 1em 0.2em;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<div id="canvasWrapper"></div>
+			
+			<div id="controllers">
+				<div id="videoControls">
+					<button id="btnSetThumbnail">Set Thumbnail</button>
+					<button id="play">play</button>
+					<button id="pause">pause</button>
+					<input type="range" min="0" max="100" value="0" id="videoTimestamp">
+				</div>
+				<button id="btnTextToggle" class="btnTextToggle" data-id="0">Text toggle</button>
+				<div id="textControllers">
+					<label>
+						Text:
+						<textarea id="textTitle">😁 КЛИКБЕЙТНЫЙ ЗАГОЛОВОК 😁</textarea>
+					</label><br>
+
+					<label>
+						Text Color:
+						<input id="textColor" value="#000000" type="color">
+					</label>
+					
+						Text align:
+						<!-- добавить id к name -->
+						<label><input name="textAlign" id="textAlignLeft" value="left" type="radio"> Left</label>
+						<label><input name="textAlign" id="textAlignRight" value="right" type="radio"> Right</label>
+						<label><input name="textAlign" id="textAlignJustify" value="justify" type="radio"> Justify</label>
+						<label><input name="textAlign" id="textAlignCenter" value="center" type="radio"> Center</label>
+						<label><input name="textAlign" id="textAlignNone" value="none" type="radio"> None</label>
+					
+				</div>
+				
+				
+				
+				<label>
+					Background Color:
+					<input id="bgColor" value="#ffffff" type="color">
+				</label>
+
+				<div>
+					<button id="allToCenter">O</button>
+					<select id="postTypeSelector"></select>
+					<select id="mediaTypeSelector"></select>
+				</div>
+
+				<hr>
+
+				<div>
+					<button id="btnUpdate">Обновить</button>
+					<button id="btnToQuery">В очередь</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

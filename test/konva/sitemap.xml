@@ -1,0 +1,2454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://konvajs.org/docs/data_and_serialization/High-Quality-Export.html</loc>
+    
+    <lastmod>2019-08-01T03:26:46.189Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/SVG_On_Canvas.html</loc>
+    
+    <lastmod>2019-07-25T10:47:50.563Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Seats_Reservation.html</loc>
+    
+    <lastmod>2019-07-25T03:36:31.589Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/index.html</loc>
+    
+    <lastmod>2019-07-25T03:35:54.619Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Relative_Pointer_Position.html</loc>
+    
+    <lastmod>2019-07-18T00:58:42.186Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/index.html</loc>
+    
+    <lastmod>2019-07-18T00:58:39.179Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/vue/index.html</loc>
+    
+    <lastmod>2019-07-18T00:58:39.179Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Image_Resize.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.842Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Animals_on_the_Beach_Game.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.831Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Canvas_Scrolling_Drag.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.831Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Free_Drawing_Manual.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.831Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/GIF_On_Canvas.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.831Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Modify_Shape_Color_on_Click.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.831Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Native_Context_Access.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.831Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Responsive_Canvas.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.831Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Rich_Text.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.831Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Video_On_Canvas.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.831Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Canvas_Scrolling_Manual.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.830Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Canvas_Scrolling_Transform.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.830Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Multi-touch_Scale_Shape.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.830Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Drag_And_Drop_Multiple_Shapes.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.816Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Drop_DOM_Element.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.815Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Shape_Tango.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.815Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Complex_Editable_Text.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.814Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Image_Border_Highlighting.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.814Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Physics_Simulator.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.814Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Custom_Font.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.804Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Animation_Stress_Test.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.803Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Star_Spinner.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.803Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Interactive_Building_Map.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Canvas_Scrolling_Large.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.426Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Drag_And_Drop_Stress_Test.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.426Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Editable_Text.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.426Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Elastic_Stars.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.426Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Expand_Image_On_Hover.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.426Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Multi-touch_Scale_Stage.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.426Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Quantum_Squiggle.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.426Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/performance/Layer_Management.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.411Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/20000_Nodes.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.411Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Collision_Detection.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.411Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Connected_Objects.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.411Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Jumping_Bunnies.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.411Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Planets_Image_Map.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.411Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Relative_zooming.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.411Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Zoom_Layer_On_Hover.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.411Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Simple_Window.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.411Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/animations/Moving.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.410Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/animations/Rotation.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.410Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/events/Event_Delegation.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.410Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/events/Listen_for_Events.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.410Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/performance/Optimize_Animation.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.410Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/10000_Shapes_With_Tooltip.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.410Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Free_Drawing_Vector.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.410Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Modify_Curves_with_Anchor_Points.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.410Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Wheel_of_Fortune.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.410Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/selectors/Select_by_Name.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.410Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/selectors/Select_by_Type.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.410Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/selectors/Select_by_id.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.410Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/animations/Scaling.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.409Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/animations/Stop_Animation.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.409Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/events/Multi_Event.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.409Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/events/Remove_by_Name.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.409Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/performance/Disable_Perfect_Draw.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.409Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/performance/Optimize_Strokes.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.409Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/events/Binding_Events.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.396Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/events/Keyboard_Events.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.396Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/performance/BatchDraw.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.396Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/performance/Listening_False.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.396Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/performance/Shape_Redraw.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.396Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Objects_Snapping.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.396Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/events/Mobile_Events.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.395Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/performance/Shape_Caching.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.395Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/events/Image_Events.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.383Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/events/Cancel_Propagation.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.368Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/events/Custom_Hit_Region.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.368Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/events/Remove_Event.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.368Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/events/Fire_Events.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.084Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/events/Mobile_Scrolling.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.083Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/styling/Line_Join.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.083Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/events/Desktop_and_Mobile.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.081Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/events/Stage_Events.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.081Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/SVG_On_Canvas.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.081Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/sandbox/Shape_Tooltips.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.081Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/shapes/Custom.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.081Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/styling/Blend_Mode.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.081Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/styling/Fill.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.081Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/styling/Hide_and_Show.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.081Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/styling/Mouse_Cursor.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.081Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/styling/Opacity.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.081Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/styling/Shadow.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.081Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/styling/Stroke.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.081Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/tweens/All_Easings.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.081Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/data_and_serialization/High-Quality-Export.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.080Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/shapes/Path.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.080Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/data_and_serialization/Best_Practices.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/data_and_serialization/Complex_Load.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/data_and_serialization/Serialize_a_Stage.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/data_and_serialization/Simple_Load.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/data_and_serialization/Stage_Data_URL.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/drag_and_drop/Simple_Drag_Bounds.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/shapes/Arc.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/shapes/Arrow.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/shapes/Circle.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/shapes/Ellipse.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/shapes/Image.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/shapes/Label.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/shapes/Line_-_Polygon.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/shapes/Line_-_Simple_line.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/shapes/Line_-_Spline.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/shapes/RegularPolygon.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/shapes/Ring.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/shapes/Sprite.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/shapes/Star.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/shapes/Wedge.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/shapes/TextPath.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.049Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/shapes/Line_-_Blob.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.048Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/shapes/Text.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.048Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/tweens/All_Controls.html</loc>
+    
+    <lastmod>2019-07-18T00:58:38.035Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/drag_and_drop/Drag_a_Stage.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.765Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/filters/Pixelate.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.763Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/drag_and_drop/Drag_a_Line.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.762Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/filters/Custom_Filter.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.745Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/filters/Kaleidoscope.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.745Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/select_and_transform/Centered_Scaling.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.745Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/drag_and_drop/Complex_Drag_and_Drop.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.732Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/drag_and_drop/Drag_Events.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.732Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/drag_and_drop/Drag_a_Group.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.732Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/drag_and_drop/Drop_Events.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.732Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/filters/Noise.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.732Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/tweens/Common_Easing.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.732Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/tweens/Finish_Event.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.732Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/tweens/Tween_Filter.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.732Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/drag_and_drop/Drag_an_Image.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.715Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/drag_and_drop/Drag_and_Drop.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.715Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/filters/Enhance.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.715Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/select_and_transform/Rotation_Snaps.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.715Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/tweens/Linear_Easing.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.715Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/clipping/Clipping_Function.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.714Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/clipping/Clipping_Regions.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.714Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/filters/HSL.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.714Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/filters/Invert.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.714Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/filters/Multiple_Filters.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.714Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/filters/RGBA.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.714Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/tweens/Complex_Tweening.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.714Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/filters/Contrast.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.700Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/filters/Brighten.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.700Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/filters/Emboss.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.700Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/filters/Grayscale.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.700Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/filters/RGB.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.700Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/filters/Blur.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.697Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/filters/HSV.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.697Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/filters/Mask.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.697Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/groups_and_layers/Change_Containers.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.697Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/posts/Position_vs_Offset_Basic_x_y.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.697Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/select_and_transform/Keep_Ratio.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.697Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/select_and_transform/Resize_Limits.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.697Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/select_and_transform/Stop_Transform.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.697Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/groups_and_layers/Layering.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.540Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/select_and_transform/Basic_demo.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.540Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/select_and_transform/Transformer_Styling.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.538Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/groups_and_layers/Groups.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.537Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/select_and_transform/Force_Update.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.537Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/select_and_transform/Transform_Events.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.537Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/groups_and_layers/zIndex.html</loc>
+    
+    <lastmod>2019-07-18T00:58:37.519Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/downloads/code/shapes/rect.html</loc>
+    
+    <lastmod>2019-07-18T00:58:36.883Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/shapes/Rect.html</loc>
+    
+    <lastmod>2019-07-12T10:18:51.470Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Rich_Text.html</loc>
+    
+    <lastmod>2019-07-04T16:12:50.132Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Editable_Text.html</loc>
+    
+    <lastmod>2019-07-04T15:28:18.721Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/shapes/Text.html</loc>
+    
+    <lastmod>2019-07-04T15:22:54.890Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Jumping_Bunnies.html</loc>
+    
+    <lastmod>2019-06-29T16:12:07.177Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Free_Drawing.html</loc>
+    
+    <lastmod>2019-06-28T16:57:46.409Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/react/zIndex.html</loc>
+    
+    <lastmod>2019-06-27T18:22:15.655Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/shapes/Path.html</loc>
+    
+    <lastmod>2019-06-25T14:03:52.159Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/shapes/Image.html</loc>
+    
+    <lastmod>2019-06-25T14:03:34.861Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/groups_and_layers/zIndex.html</loc>
+    
+    <lastmod>2019-06-24T14:02:35.758Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Native_Context_Access.html</loc>
+    
+    <lastmod>2019-06-21T17:40:16.907Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Objects_Snapping.html</loc>
+    
+    <lastmod>2019-06-21T14:41:12.769Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/shapes/Star.html</loc>
+    
+    <lastmod>2019-06-07T21:18:33.546Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/data_and_serialization/Best_Practices.html</loc>
+    
+    <lastmod>2019-06-07T21:18:33.544Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/select_and_transform/Resize_Limits.html</loc>
+    
+    <lastmod>2019-05-28T01:15:33.663Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/animations/Rotation.html</loc>
+    
+    <lastmod>2019-05-13T13:24:30.143Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/vue/Shapes.html</loc>
+    
+    <lastmod>2019-04-07T02:37:23.577Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Connected_Objects.html</loc>
+    
+    <lastmod>2019-04-05T16:01:05.464Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/events/Custom_Hit_Region.html</loc>
+    
+    <lastmod>2019-03-10T17:56:55.784Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/performance/Optimize_Strokes.html</loc>
+    
+    <lastmod>2019-03-10T17:51:36.560Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/vue/Save-Load.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.832Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/styling/Stroke.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.831Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/styling/Mouse_Cursor.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.830Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/styling/Opacity.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.830Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/styling/Shadow.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.830Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/styling/Hide_and_Show.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.829Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/styling/Line_Join.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.829Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/styling/Blend_Mode.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.828Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/styling/Fill.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.828Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/shapes/RegularPolygon.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.827Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/shapes/Label.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.826Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/shapes/Circle.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.824Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/shapes/Arrow.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.823Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/selectors/Select_by_Name.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.822Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/selectors/Select_by_Type.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.822Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/selectors/Select_by_id.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.822Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/select_and_transform/Transformer_Styling.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.821Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/select_and_transform/Stop_Transform.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.820Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/select_and_transform/Transform_Events.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.820Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/select_and_transform/Rotation_Snaps.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.819Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/select_and_transform/Force_Update.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.817Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/select_and_transform/Keep_Ratio.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.817Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/select_and_transform/Centered_Scaling.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.816Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/select_and_transform/Basic_demo.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.815Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Zoom_Layer_On_hover.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.814Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Zooming_Relative_To_Pointer.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.814Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Window_Frame_Designer.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.813Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Star_Spinner.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.812Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Wheel_of_Fortune.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.812Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Simple_Window_Frame.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.811Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Shape_Tooltips.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.809Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Shape_Tango.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.807Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Responsive_Canvas.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.806Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Relative_Pointer_Position.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.805Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Quantum_Squiggle.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.804Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Multi-touch_Scale_Stage.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.803Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Physics_Simulator.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.803Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Planets_Image_Map.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.803Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Modify_Curves_with_Anchor_Points.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.802Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Modify_Shape_Color_on_Click.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.802Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Multi-touch_Scale_Shape.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.802Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Elastic_Stars.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.801Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Interactive_Building_Map.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.801Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Drag_and_Drop_Multiple_Shapes.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.800Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Drag_and_Drop_Stress_Test.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.800Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Collision_Detection.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.799Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Custom_Font.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.799Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Animals_on_the_Beach_Game.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.798Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Animation_Stress_Test.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.798Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/posts/Position_vs_Offset.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.797Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/10000_Shapes_with_Tooltip.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.797Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/how_it_works.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.795Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/groups_and_layers/Layering.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.795Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/groups_and_layers/Change_Containers.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.794Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/groups_and_layers/Groups.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.794Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/filters/RGBA.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.793Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/filters/Pixelate.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.792Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/filters/RGB.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.792Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/filters/Noise.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.791Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/filters/Mask.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.789Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/filters/Multiple_Filters.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.789Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/filters/Kaleidoscope.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.788Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/filters/Invert.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.787Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/filters/HSV.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.786Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/filters/HSL.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.785Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/filters/Grayscale.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.784Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/filters/Enhance.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.782Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/filters/Emboss.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.781Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/filters/Custom_Filter.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.780Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/filters/Contrast.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.779Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/filters/Brighten.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.777Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/filters/Blur.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.776Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/drag_and_drop/Drop_Events.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.774Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/drag_and_drop/Simple_Drag_Bounds.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.774Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/drag_and_drop/Drag_an_Image.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.772Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/drag_and_drop/Drag_and_Drop.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.772Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/drag_and_drop/Drag_a_Line.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.771Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/drag_and_drop/Drag_a_Stage.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.771Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/drag_and_drop/Complex_Drag_and_Drop.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.770Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/drag_and_drop/Drag_Events.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.770Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/drag_and_drop/Drag_a_Group.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.770Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/animations/Scaling.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.767Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/animations/Stop_Animation.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.767Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/animations/Moving.html</loc>
+    
+    <lastmod>2019-03-07T03:48:21.764Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/tools.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.720Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/animations/Create_an_Animation.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.710Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/react/Events.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.702Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/react/Custom_Shape.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.699Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/react/Undo-Redo.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.698Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/react/index.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.697Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/react/Complex_Animations.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.694Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/react/Shapes.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.692Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/react/Simple_Animations.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.691Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/react/Drag_And_Drop.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.689Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/react/Filters.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.687Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/react/DOM_Portal.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.683Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/react/Transformer.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.683Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/react/Images.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.681Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/performance/Batch_Draw.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.680Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/performance/Layer_Management.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.679Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/performance/Disable_Perfect_Draw.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.678Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/performance/Shape_Redraw.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.674Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/performance/Listening_False.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.673Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/performance/All_Performance_Tips.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.671Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/performance/Avoid_Memory_Leaks.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.664Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/performance/Optimize_Animation.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.663Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/performance/Shape_Caching.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.662Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/events/Image_Events.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.660Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/events/Desktop_and_Mobile.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.654Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/events/Mobile_Events.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.650Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/events/Remove_Event.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.644Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/events/Keyboard_Events.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.642Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/events/Remove_by_Name.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.640Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/events/Stage_Events.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.637Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/events/Cancel_Propagation.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.631Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/events/Multi_Event.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.630Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/events/Mobile_Scrolling.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.629Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/events/Binding_Events.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.628Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/events/Event_Delegation.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.626Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/events/Fire_Events.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.625Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/events/Listen_for_Events.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.624Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Expand_Images_on_Hover.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.611Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Drop_DOM_Element.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.599Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/20000_Nodes.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.596Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Video_On_Canvas.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.595Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/GIF_On_Canvas.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.594Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Canvas_Scrolling.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.581Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Image_Border_Highlighting.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.579Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/sandbox/Image_Resize.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.578Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/support.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.576Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/data_and_serialization/Simple_Load.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.573Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/data_and_serialization/Complex_Load.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.571Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/data_and_serialization/Stage_Data_URL.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.569Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/data_and_serialization/Serialize_a_Stage.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.568Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/donate.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.567Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/shapes/TextPath.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.560Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/shapes/Line_-_Blob.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.559Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/shapes/Custom.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.558Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/shapes/Line_-_Simple_Line.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.556Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/shapes/Arc.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.555Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/shapes/Wedge.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.553Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/shapes/Ellipse.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.552Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/shapes/Ring.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.549Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/shapes/Line_-_Polygon.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.548Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/shapes/Sprite.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.548Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/shapes/Line_-_Spline.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.546Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/tweens/Linear_Easing.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.534Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/tweens/All_Controls.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.533Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/tweens/Complex_Tweening.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.532Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/tweens/Tween_Filter.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.532Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/tweens/Common_Easings.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.530Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/tweens/All_Easings.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.529Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/tweens/Finish_Event.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.528Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/vue/Events.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.525Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/vue/Custom_Shape.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.525Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/vue/Simple_Animations.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.518Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/vue/Drag_And_Drop.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.516Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/vue/Filters.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.514Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/vue/Transformer.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.513Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/vue/Images.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.511Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/clipping/Clipping_Function.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.506Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/clipping/Clipping_Regions.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.505Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/docs/overview.html</loc>
+    
+    <lastmod>2019-03-07T03:48:09.501Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/android-chrome-manifest.json</loc>
+    
+    <lastmod>2019-03-07T03:43:21.927Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konvajs.org/index.html</loc>
+    
+    <lastmod>2019-03-07T03:43:21.924Z</lastmod>
+    
+  </url>
+  
+</urlset>

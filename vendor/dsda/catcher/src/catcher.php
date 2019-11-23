@@ -44,6 +44,12 @@ class catcher {
 		return $log;
 	}
 	
+	/**
+	 * Print debug information on screen
+	 * @param Any $smth
+	 * @param boolean $vardump
+	 * @param boolean $backtrace
+	 */
 	function log($smth,$vardump=false,$backtrace=false){
 		if (($this->config!==null && $this->config->get('debug')==true) || $backtrace==true) {
 			$backtrace=true;
@@ -57,7 +63,14 @@ class catcher {
 		
 	}
 	
-	// Example: throw new Exception('Division by zero');
+	
+	/**
+	 * Write message to log file
+	 * Example: throw new Exception('Division by zero');
+	 * @param type $smth
+	 * @param boolean $vardump
+	 * @param boolean $backtrace
+	 */
 	function debug($smth,$vardump=false,$backtrace=false){
 		if (($this->config!==null && $this->config->get('debug')==true) || $backtrace==true) {
 			$backtrace=true;

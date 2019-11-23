@@ -53,7 +53,7 @@ class Account extends RequestCollection
     public function setBiography(
         $biography)
     {
-        if (!is_string($biography) || strlen($biography) > 150) {
+        if (!is_string($biography) || mb_strlen($biography, 'utf8') > 150) {
             throw new \InvalidArgumentException('Please provide a 0 to 150 character string as biography.');
         }
 
@@ -61,7 +61,38 @@ class Account extends RequestCollection
             ->addPost('raw_text', $biography)
             ->addPost('_uuid', $this->ig->uuid)
             ->addPost('_uid', $this->ig->account_id)
+            ->addPost('device_id', $this->ig->device_id)
             ->addPost('_csrftoken', $this->ig->client->getToken())
+            ->getResponse(new Response\UserInfoResponse());
+    }
+
+    /**
+     * Edit your gender.
+     *
+     * WARNING: Remember to also call `editProfile()` *after* using this
+     * function, so that you act like the real app!
+     *
+     * @param string $gender this can be male, female, empty or null for 'prefer not to say' or anything else for custom
+     *
+     * @return \InstagramAPI\Response\UserInfoResponse
+     */
+    public function setGender(
+        $gender = '')
+    {
+        switch (strtolower($gender)) {
+            case 'male':$gender_id = 1; break;
+            case 'female':$gender_id = 2; break;
+            case null:
+            case '':$gender_id = 3; break;
+            default:$gender_id = 4;
+        }
+
+        return $this->ig->request('accounts/set_gender/')
+            ->setSignedPost(false)
+            ->addPost('gender', $gender_id)
+            ->addPost('_csrftoken', $this->ig->client->getToken())
+            ->addPost('_uuid', $this->ig->uuid)
+            ->addPost('custom_gender', $gender_id === 4 ? $gender : '')
             ->getResponse(new Response\UserInfoResponse());
     }
 
@@ -78,7 +109,7 @@ class Account extends RequestCollection
      * @param string      $biography   Biography text. Use "" for nothing.
      * @param string      $email       Email. Required!
      * @param int         $gender      Gender (1 = male, 2 = female, 3 = unknown). Required!
-     * @param null|string $newUsername (optional) Rename your account to a new username,
+     * @param string|null $newUsername (optional) Rename your account to a new username,
      *                                 which you've already verified with checkUsername().
      *
      * @throws \InstagramAPI\Exception\InstagramException
@@ -125,30 +156,8 @@ class Account extends RequestCollection
             ->addPost('biography', $biography)
             ->addPost('email', $email)
             ->addPost('gender', $gender)
+            ->addPost('device_id', $this->ig->device_id)
             ->getResponse(new Response\UserInfoResponse());
-    }
-
-    /**
-     * Set your account's name and phone.
-     *
-     * @param string $name  Your name.
-     * @param string $phone Your phone number (optional).
-     *
-     * @throws \InstagramAPI\Exception\InstagramException
-     *
-     * @return \InstagramAPI\Response\GenericResponse
-     */
-    public function setNameAndPhone(
-        $name = '',
-        $phone = '')
-    {
-        return $this->ig->request('accounts/set_phone_and_name/')
-            ->addPost('_uuid', $this->ig->uuid)
-            ->addPost('_uid', $this->ig->account_id)
-            ->addPost('_csrftoken', $this->ig->client->getToken())
-            ->addPost('first_name', $name)
-            ->addPost('phone_number', $phone)
-            ->getResponse(new Response\GenericResponse());
     }
 
     /**
@@ -680,8 +689,8 @@ class Account extends RequestCollection
         return $this->ig->request('accounts/contact_point_prefill/')
             ->setNeedsAuth(false)
             ->addPost('phone_id', $this->ig->phone_id)
-            ->addPost('usage', $usage)
             ->addPost('_csrftoken', $this->ig->client->getToken())
+            ->addPost('usage', $usage)
             ->getResponse(new Response\GenericResponse());
     }
 
@@ -695,10 +704,30 @@ class Account extends RequestCollection
     public function getBadgeNotifications()
     {
         return $this->ig->request('notifications/badge/')
+            ->setSignedPost(false)
             ->addPost('_uuid', $this->ig->uuid)
             ->addPost('_csrftoken', $this->ig->client->getToken())
             ->addPost('users_ids', $this->ig->account_id)
             ->addPost('phone_id', $this->ig->phone_id)
             ->getResponse(new Response\BadgeNotificationsResponse());
+    }
+
+    /**
+     * TODO.
+     *
+     * @throws \InstagramAPI\Exception\InstagramException
+     *
+     * @return \InstagramAPI\Response\GenericResponse
+     */
+    public function getProcessContactPointSignals()
+    {
+        return $this->ig->request('accounts/process_contact_point_signals/')
+            ->addPost('google_tokens', '[]')
+            ->addPost('phone_id', $this->ig->phone_id)
+            ->addPost('_uid', $this->ig->account_id)
+            ->addPost('_uuid', $this->ig->uuid)
+            ->addPost('device_id', $this->ig->device_id)
+            ->addPost('_csrftoken', $this->ig->client->getToken())
+            ->getResponse(new Response\GenericResponse());
     }
 }

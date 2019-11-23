@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns#"><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+<title>
+   Demos | Konva - JavaScript 2d canvas
+  library
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="canonical" href="https://konvajs.org/docs/sandbox/index.html">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/android-chrome-manifest.json">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff"> <link rel="stylesheet" href="/css/style.css">
+<link href="//fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet" type="text/css">
+<link rel="alternate" href="/atom.xml" title="Konva.js - JavaScript 2d canvas library"> <meta name="description" content="Demos and samples of Konva framework">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Demos">
+<meta property="og:url" content="https://konvajs.org/docs/sandbox/index.html">
+<meta property="og:site_name" content="Konva.js - JavaScript 2d canvas library">
+<meta property="og:description" content="Demos and samples of Konva framework">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https://konvajs.org/logo.png">
+<meta property="og:updated_time" content="2019-07-25T03:35:54.619Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Demos">
+<meta name="twitter:description" content="Demos and samples of Konva framework">
+<meta name="twitter:image" content="https://konvajs.org/logo.png">
+<meta name="twitter:site" content="@lavrton"> 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54202824-2', 'konvajs.org');
+  ga('send', 'pageview');
+</script>
+
+
+  </head>
+  <body>
+    <header id="header">
+  <div class="outer">
+    <div class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Konva</a>
+        <a id="main-nav-toggle"></a>
+      </h1>
+      <nav id="main-nav">
+        <ul id="main-nav-list">
+          
+          <li class="main-nav-item">
+            <a href="/docs/" class="main-nav-link">
+              Tutorials
+            </a>
+          </li>
+          
+          <li class="main-nav-item">
+            <a href="/docs/sandbox" class="main-nav-link">
+              Demos
+            </a>
+          </li>
+          
+          <li class="main-nav-item">
+            <a href="/api/Konva.html" class="main-nav-link">
+              API docs
+            </a>
+          </li>
+          
+          <li class="main-nav-item">
+            <a href="/docs/react" class="main-nav-link">
+              React
+            </a>
+          </li>
+          
+          <li class="main-nav-item">
+            <a href="/docs/vue" class="main-nav-link">
+              Vue
+            </a>
+          </li>
+          
+          <li class="main-nav-item">
+            <a href="/docs/donate.html" class="main-nav-link">
+              Support Konva
+            </a>
+          </li>
+          
+          <li class="main-nav-item">
+            <a href="/docs/support.html" class="main-nav-link">
+              Need help?
+            </a>
+          </li>
+          
+          <li class="main-nav-item">
+            <input id="search" placeholder="Search the docs">
+          </li>
+          <li class="main-nav-item">
+            <a href="https://lavrton.com/consulting" title="Consulting" target="_blank" class="main-nav-link" style="color: white;background: #0bad42;padding: 10px;border-radius: 10px;">Consulting</a>
+          </li>
+        </ul>
+
+        <a href="https://github.com/konvajs/konva" id="github-btn" title="GitHub" target="_blank"></a>
+        <!--
+          <a id="search-btn" class="st-search-launcher" title="Search"></a>
+        -->
+      </nav>
+    </div>
+  </div>
+</header>
+ <article class="page" itemscope="" itemtype="http://schema.org/Article">
+  <div id="mobile-menu-wrap"></div>
+  <div class="demo-into">There are some demos of the Konva Framework. But also we have a lot of <a href="/docs/">tutorials</a> for almost every aspect of the framework.</div><div class="grid-container"><div class="grid-item small"><a href="/docs/sandbox/Wheel_of_Fortune.html"><div style="background-image: url(/assets/demos/wheel-of-fortune-min.png);" class="preview"></div><div class="description"><h4>Wheel of Fortune Game</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Animals_on_the_Beach_Game.html"><div style="background-image: url(/assets/demos/animals-min.png);" class="preview"></div><div class="description"><h4>Animals on the Beach Game</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Planets_Image_Map.html"><div style="background-image: url(/assets/demos/planet-min.png);" class="preview"></div><div class="description"><h4>Planets Image Map</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Simple_Window_Frame.html"><div style="background-image: url(/assets/demos/simple-window.png);" class="preview"></div><div class="description"><h4>Simple Window Frame</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Window_Frame_Designer.html"><div style="background-image: url(/assets/demos/window.png);" class="preview"></div><div class="description"><h4>Window Frame Designer</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Star_Spinner.html"><div style="background-image: url(/assets/demos/spinner-min.png);" class="preview"></div><div class="description"><h4>Star Spinner</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Connected_Objects.html"><div style="background-image: url(/assets/demos/connected-objects.png);" class="preview"></div><div class="description"><h4>Connected Objects</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Seats_Reservation.html"><div style="background-image: url(/assets/demos/seats-reservation.jpg);" class="preview"></div><div class="description"><h4>Seats Reservation</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Image_Resize.html"><div style="background-image: url(/assets/demos/image-resize-min.png);" class="preview"></div><div class="description"><h4>Manual Image Resize</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Free_Drawing.html"><div style="background-image: url(/assets/demos/free-drawing-min.png);" class="preview"></div><div class="description"><h4>Manual Free Drawing</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Modify_Curves_with_Anchor_Points.html"><div style="background-image: url(/assets/demos/modify-line-min.png);" class="preview"></div><div class="description"><h4>Modify Curves with Anchor Points</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Editable_Text.html"><div style="background-image: url(/assets/demos/editable_text-min.png);" class="preview"></div><div class="description"><h4>Editable Text</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Rich_Text.html"><div style="background-image: url(/assets/demos/rich-text.jpg);" class="preview"></div><div class="description"><h4>Rich Text rendering</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Collision_Detection.html"><div style="background-image: url(/assets/demos/collision-min.png);" class="preview"></div><div class="description"><h4>Collision Detection</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Canvas_Scrolling.html"><div style="background-image: url(/assets/demos/scroll.png);" class="preview"></div><div class="description"><h4>Canvas Scrolling</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/GIF_On_Canvas.html"><div style="background-image: url(/assets/demos/gif.jpg);" class="preview"></div><div class="description"><h4>Gif Animation</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Video_On_Canvas.html"><div style="background-image: url(/assets/demos/video.jpg);" class="preview"></div><div class="description"><h4>Display Video</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/SVG_On_Canvas.html"><div style="background-image: url(/assets/demos/svg_on_canvas.jpg);" class="preview"></div><div class="description"><h4>SVG on Canvas</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Custom_Font.html"><div style="background-image: url(/assets/demos/custom-font.png);" class="preview"></div><div class="description"><h4>Custom Font</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Quantum_Squiggle.html"><div style="background-image: url(/assets/demos/squiggle-min.png);" class="preview"></div><div class="description"><h4>Quantum Squiggle</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Interactive_Building_Map.html"><div style="background-image: url(/assets/demos/building_map-min.png);" class="preview"></div><div class="description"><h4>Interactive Building Map</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Physics_Simulator.html"><div style="background-image: url(/assets/demos/simulator-min.png);" class="preview"></div><div class="description"><h4>Physics Simulator</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Elastic_Stars.html"><div style="background-image: url(/assets/demos/stars-min.png);" class="preview"></div><div class="description"><h4>Elastic Stars</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Objects_Snapping.html"><div style="background-image: url(/assets/demos/objects_snapping.png);" class="preview"></div><div class="description"><h4>Objects Snapping</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Shape_Tango.html"><div style="background-image: url(/assets/demos/tango-min.png);" class="preview"></div><div class="description"><h4>Shape Tango</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Image_Border_Highlighting.html"><div style="background-image: url(/assets/demos/border-min.png);" class="preview"></div><div class="description"><h4>Image Border Highlighting</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Zooming_Relative_To_Pointer.html"><div style="background-image: url(/assets/demos/relative_zoom-min.png);" class="preview"></div><div class="description"><h4>Zoom Relative To Pointer</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/20000_Nodes.html"><div style="background-image: url(/assets/demos/2000_nodes-min.png);" class="preview"></div><div class="description"><h4>20000 Nodes</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Zoom_Layer_On_hover.html"><div style="background-image: url(/assets/demos/hover_zoom-min.png);" class="preview"></div><div class="description"><h4>Zoom Layer On hover</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Responsive_Canvas.html"><div style="background-image: url(/assets/demos/responsive-min.png);" class="preview"></div><div class="description"><h4>Responsive Canvas Stage</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Multi-touch_Scale_Shape.html"><div style="background-image: url(/assets/demos/multitouch-min.png);" class="preview"></div><div class="description"><h4>Multi-touch Scale Shape</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Multi-touch_Scale_Stage.html"><div style="background-image: url(/assets/demos/multitouch-min.png);" class="preview"></div><div class="description"><h4>Multi-touch Scale Stage</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Drag_and_Drop_Stress_Test.html"><div style="background-image: url(/assets/demos/drag_stress-min.png);" class="preview"></div><div class="description"><h4>Drag and Drop Stress Test</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Animation_Stress_Test.html"><div style="background-image: url(/assets/demos/animation_stress-min.png);" class="preview"></div><div class="description"><h4>Animation Stress Test</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Jumping_Bunnies.html"><div style="background-image: url(/assets/demos/bunnies.jpg);" class="preview"></div><div class="description"><h4>Bunnies Stress Test</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/10000_Shapes_with_Tooltip.html"><div style="background-image: url(/assets/demos/tooltip_stress-min.png);" class="preview"></div><div class="description"><h4>10000 Shapes with Tooltip</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Modify_Shape_Color_on_Click.html"><div style="background-image: url(/assets/demos/color_click-min.png);" class="preview"></div><div class="description"><h4>Modify Shape Color on Click</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Expand_Images_on_Hover.html"><div style="background-image: url(/assets/demos/hover_expand-min.png);" class="preview"></div><div class="description"><h4>Expand Images on Hover</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Shape_Tooltips.html"><div style="background-image: url(/assets/demos/shape_tooltip-min.png);" class="preview"></div><div class="description"><h4>Shape Tooltip</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Drag_and_Drop_Multiple_Shapes.html"><div style="background-image: url(/assets/demos/drag_multiple-min.png);" class="preview"></div><div class="description"><h4>Drag and Drop Multiple Shapes</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Relative_Pointer_Position.html"><div style="background-image: url(/assets/demos/pointer.png);" class="preview"></div><div class="description"><h4>Relative Pointer Position</h4></div></a></div><div class="grid-item small"><a href="/docs/sandbox/Drop_DOM_Element.html"><div style="background-image: url(/assets/demos/drop.png);" class="preview"></div><div class="description"><h4>Drop DOM Element</h4></div></a></div></div>
+    
+</article> <footer id="footer">
+  <div class="outer">
+    <div class="inner">
+      <div id="footer-copyright">
+        &copy; 2019 KonvaJS<br>
+      </div>
+      <div id="footer-links">
+        <a href="https://twitter.com/lavrton" id="footer-link-twitter" class="footer-link" target="_blank"><span>Twitter</span></a>
+        <a href="https://github.com/konvajs/konva" id="footer-link-github" class="footer-link" target="_blank"><span>GitHub</span></a>
+      </div>
+    </div>
+    <div class="inner">
+      <div class="footer-resources">
+        <h3>Docs</h3>
+        <ul>
+          <li><a href="/docs">Tutorials</a></li>
+          <li><a href="/docs/overview.html">General Overview</a></li>
+          <li><a href="/api/Konva.html">API doc</a></li>
+
+          <li><a href="/docs/sandbox/">Demos</a></li>
+          <li><a href="/docs/react/">Usage with React</a></li>
+          <li><a href="/docs/vue/">Usage with Vue</a></li>
+          <li>
+            <a href="https://github.com/konvajs/konva/blob/master/CHANGELOG.md">Changelog</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-resources">
+        <h3>CHANNELS</h3>
+        <ul>
+          <li>
+            <a href="https://github.com/konvajs/konva" target="_blank">GitHub</a>
+          </li>
+          <li>
+            <a href="https://stackoverflow.com/questions/tagged/konvajs" target="_blank">StackOverflow</a>
+          </li>
+          <li><a href="https://gitter.im/konvajs/konva" target="_blank">GitTip chat</a></li>
+          <li>
+            <a href="https://github.com/konvajs/konva/blob/master/CHANGELOG.md" target="_blank">Changelog</a>
+          </li>
+        </ul>
+        
+      </div>
+      <div class="footer-resources">
+          <h3>More</h3>
+          <ul>
+            <li>
+              <a href="/docs/support.html">Need help?</a>
+            </li>
+            <li>
+              <a href="/docs/donate.html" target="_blank">Donate</a>
+            </li>
+          </ul>
+    </div>
+  </div>
+  <script>
+    ((window.gitter = {}).chat = {}).options = {
+      room: 'konvajs/konva'
+    };
+  </script>
+  <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+</div></footer>
+ 
+<!-- Disqus -->
+<script>
+  var disqus_shortname = 'konvajs';
+  
+  var disqus_url = 'https://konvajs.org/docs/sandbox/index.html';
+  
+    (function () {
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//go.disqus.com/count.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+<!-- Swiftype -->
+<!--
+  <script>
+    var Swiftype = window.Swiftype || {};
+    (function () {
+      Swiftype.key = 'rRaQRFqx1DcWDDysdpg_';
+
+      /** DO NOT EDIT BELOW THIS LINE **/
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = "//s.swiftypecdn.com/embed.js";
+      var entry = document.getElementsByTagName('script')[0];
+      document.getElementsByTagName('script')[0].parentNode.insertBefore(script, entry);
+    }());
+  </script>
+-->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script type="text/javascript">
+  docsearch({
+    apiKey: '031987a5aa012671236e1d4992009b4f',
+    indexName: 'konvajs',
+    inputSelector: '#search',
+    algoliaOptions: {
+      hitsPerPage: 10
+      // See https://www.algolia.com/doc/api-reference/api-parameters/
+    },
+    // transformData: function (suggestions) {
+    //   // Transform the list of suggestions, and the return the updated list
+    //   suggestions.sort(function (a, b) {
+    //     if (a.url.indexOf('/api/') >= 0) {
+    //       return 1;
+    //     } else {
+    //       return -1;
+    //     }
+    //   });
+    //   return suggestions.slice(0, 10);
+    // },
+    debug: true // Set debug to true if you want to inspect the dropdown
+  });
+</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/js/retina.min.js"></script> <script src="/js/script.js"></script>
+<!-- Google+ -->
+<script type="text/javascript" src="//apis.google.com/js/plusone.js"></script>
+<!-- Twitter -->
+<script>
+  !(function(d, s, id) {
+    var js,
+      fjs = d.getElementsByTagName(s)[0],
+      p = /^http:/.test(d.location) ? 'http' : 'https';
+    if (!d.getElementById(id)) {
+      js = d.createElement(s);
+      js.id = id;
+      js.src = p + '://platform.twitter.com/widgets.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }
+  })(document, 'script', 'twitter-wjs');
+</script>
+
+  </body>
+</html>

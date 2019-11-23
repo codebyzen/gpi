@@ -18,8 +18,17 @@ This is Instagram's private API. It has almost all the features the Instagram ap
 - ![Paypal](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/paypal.png) Paypal: [Donate](https://www.paypal.me/Armindale/0usd)
 - ![btc](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/bitcoin.png) Bitcoin: 18XF1EmrkpYi4fqkR2XcHkcJxuTMYG4bcv
 
+**jroy**
+
+- ![Paypal](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/paypal.png) Paypal: [Donate](https://www.paypal.me/JoshuaRoy1/0usd)
+- ![btc](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/bitcoin.png) Bitcoin: 32J2AqJBDY1VLq6wfZcLrTYS8fCcHHVDKD
+
 ----------
 ## Installation
+
+### Dependencies
+
+Install/enable the required php extentions and depedencies. You can learn how to do so [here](https://github.com/mgp25/Instagram-API/wiki/Dependencies).
 
 ### Using Composer
 
